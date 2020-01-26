@@ -1,0 +1,38 @@
+{
+  "name": "sequelize-cli_examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasp4770/Sequelize-cli_examples.git"
+  },
+  "keywords": [
+    "sequelize",
+    "sequelize-cli",
+    "hasOne",
+    "belongsToOne",
+    "hasMany",
+    "belongsToMany",
+    "manyToMany",
+    "many-to-many",
+    "migration",
+    "seeders",
+    "MySql"
+  ],
+  "author": "kasp4770",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasp4770/Sequelize-cli_examples/issues"
+  },
+  "homepage": "https://github.com/kasp4770/Sequelize-cli_examples#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1"
+  }
+}
