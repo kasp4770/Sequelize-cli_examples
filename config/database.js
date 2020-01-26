@@ -7,6 +7,7 @@ module.exports = {
       database: process.env.DB_DEV_DB,
       host: "127.0.0.1",
       dialect: "mysql", //Skal matche din db. Kan også defineres i dotenv filen. Se mere på sequelize.org.
+      seederStorage: "json",
       operatorsAliases: false
     },
     test: {
