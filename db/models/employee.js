@@ -8,6 +8,11 @@ module.exports = (sequelize, DataTypes) => {
   Employee.associate = function(models) {
     Employee.belongsTo(models.Address, {foreignKey: 'addressId'})
     Employee.belongsTo(models.Company, {foreignKey: 'companyId'})
+    Employee.belongsToMany(models.Project, {
+      through: 'EmployeeProjects', 
+      foreignKey: 'employeeId',
+      as: 'project'
+    })
   };
   return Employee;
 };
